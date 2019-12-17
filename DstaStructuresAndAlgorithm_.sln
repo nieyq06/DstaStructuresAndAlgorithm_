@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		课程作业.md = 课程作业.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{AA076DE5-FE6C-4B02-B724-02245FE791BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingCards", "PlayingCards\PlayingCards.csproj", "{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -24,5 +28,13 @@ Global
 		{E104AAD9-162B-4B62-A6ED-D303B46D1108}.Debug|anycpu.Build.0 = Debug|anycpu
 		{E104AAD9-162B-4B62-A6ED-D303B46D1108}.Release|anycpu.ActiveCfg = Release|anycpu
 		{E104AAD9-162B-4B62-A6ED-D303B46D1108}.Release|anycpu.Build.0 = Release|anycpu
+		{AA076DE5-FE6C-4B02-B724-02245FE791BB}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{AA076DE5-FE6C-4B02-B724-02245FE791BB}.Debug|anycpu.Build.0 = Debug|anycpu
+		{AA076DE5-FE6C-4B02-B724-02245FE791BB}.Release|anycpu.ActiveCfg = Release|anycpu
+		{AA076DE5-FE6C-4B02-B724-02245FE791BB}.Release|anycpu.Build.0 = Release|anycpu
+		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Debug|anycpu.Build.0 = Debug|anycpu
+		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Release|anycpu.ActiveCfg = Release|anycpu
+		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
