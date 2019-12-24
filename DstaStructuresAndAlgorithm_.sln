@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingCards", "PlayingCards\PlayingCards.csproj", "{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符分割", "字符分割\字符分割.csproj", "{AD2F375A-9EB4-40F0-90F5-189740277D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -36,5 +38,9 @@ Global
 		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Debug|anycpu.Build.0 = Debug|anycpu
 		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Release|anycpu.ActiveCfg = Release|anycpu
 		{7EF0E079-ADF3-48F2-9F11-011D3A0C4208}.Release|anycpu.Build.0 = Release|anycpu
+		{AD2F375A-9EB4-40F0-90F5-189740277D5A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{AD2F375A-9EB4-40F0-90F5-189740277D5A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{AD2F375A-9EB4-40F0-90F5-189740277D5A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{AD2F375A-9EB4-40F0-90F5-189740277D5A}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
