@@ -14,16 +14,40 @@ namespace 字符分割
             Console.ReadKey();
         }
 
-        public static void TextInfos(List<model> models)
+
+
+      public static void TextInfos(List<model> models)
         {
-            var v = from s in models select new {s.text};
+            var v = from s in models select new { s.text };
             string texts = "";
             foreach (var ss in v)
             {
                 texts = texts + ss;
             }
-            Console.WriteLine(texts);
-        }
+
+            string[] strArr = Regex.Split(texts, "人工智能", RegexOptions.IgnoreCase);
+            List<string> strtext = new List<string>();
+            foreach (var s in strArr)
+            {
+                strtext.Add(s);
+            }
+            foreach (var s in strtext)
+            {
+                string c = "人工智能" + s + "\n";
+                int i = 1;
+                foreach (char r in c)
+                {
+                    Console.Write(r);
+                    i++;
+                    if (i == 13)
+                    {
+                        Console.WriteLine("...");
+                        break;
+                    }
+
+                }
+
+            }
 
 
 
@@ -69,3 +93,4 @@ namespace 字符分割
         //                }
     }
 }
+    }
